@@ -10,11 +10,16 @@ albedo_color = Color(5.39064e-06, 0.682959, 0.904843, 1)
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_fdwhq"]
 material = SubResource("StandardMaterial3D_5kvr3")
 
-[node name="Player" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D" groups=["Player"]]
 script = ExtResource("1_ulp21")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="shape" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_wybx0")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_fdwhq")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/milana/Documents/GitHub/game-cs/New Game Project.csproj": {}
+    "D:\\Milana_disk_D\\Документы\\GitHub\\game-cs\\New Game Project.csproj": {}
   },
   "projects": {
-    "/Users/milana/Documents/GitHub/game-cs/New Game Project.csproj": {
+    "D:\\Milana_disk_D\\Документы\\GitHub\\game-cs\\New Game Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/milana/Documents/GitHub/game-cs/New Game Project.csproj",
+        "projectUniqueName": "D:\\Milana_disk_D\\Документы\\GitHub\\game-cs\\New Game Project.csproj",
         "projectName": "New Game Project",
-        "projectPath": "/Users/milana/Documents/GitHub/game-cs/New Game Project.csproj",
-        "packagesPath": "/Users/milana/.nuget/packages/",
-        "outputPath": "/Users/milana/Documents/GitHub/game-cs/.godot/mono/temp/obj/",
+        "projectPath": "D:\\Milana_disk_D\\Документы\\GitHub\\game-cs\\New Game Project.csproj",
+        "packagesPath": "C:\\Users\\Milana\\.nuget\\packages\\",
+        "outputPath": "D:\\Milana_disk_D\\Документы\\GitHub\\game-cs\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/milana/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Milana\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,2 +1,2 @@
-﻿52398
-/Applications/Godot_mono.app/Contents/MacOS/Godot
+﻿61537
+D:/Milana_disk_D/Рабочий стол/Godot_v4.4-stable_mono_win64/Godot_v4.4-stable_mono_win64.exe

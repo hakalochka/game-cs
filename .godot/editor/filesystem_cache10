@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746788019
-icon.svg::CompressedTexture2D::3011833915117651939::1746787968::1746788021::1::::<><><>0<>0<>29683fefa86d27077d2812b795885344<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://main/::1746787968
-main.tscn::PackedScene::8616514762887416789::1746787968::0::1::::<><><>0<>0<><>::uid://bqkt5qgm7a1wr::::res://player/Player.tscn
-trap.tscn::PackedScene::5051134806581237247::1746787968::0::1::::<><><>0<>0<><>::
-::res://player/::1746787968
-Player.cs::CSharpScript::4150303540611325964::1746787968::0::1::::<><><>0<>0<><>::
-Player.tscn::PackedScene::3531294006352374117::1746787968::0::1::::<><><>0<>0<><>::uid://b0eo5mineqxnw::::res://player/Player.cs
+::res://::1746788439
+icon.svg::CompressedTexture2D/CompressedTexture2D::3011833915117651939::1746788390::1746788440::1::::<><><>0<>0<>29683fefa86d27077d2812b795885344<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://main/::1746788390
+main.tscn::PackedScene::8616514762887416789::1746788390::0::1::::<><><>0<>0<><>::uid://bqkt5qgm7a1wr::::res://player/Player.tscn
+trap.tscn::PackedScene::5051134806581237247::1746788390::0::1::::<><><>0<>0<><>::
+::res://player/::1746788390
+Player.cs::CSharpScript::4150303540611325964::1746788390::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Player.tscn::PackedScene::3531294006352374117::1746788390::0::1::::<><><>0<>0<><>::uid://b0eo5mineqxnw::::res://player/Player.cs

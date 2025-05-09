@@ -1,8 +1,15 @@
 using Godot;
 using System;
 
+namespace Player;
+
 public partial class Player : CharacterBody3D
 {
+    [Export]
+    public CollisionShape3D shape;
+    [Export]
+    public Timer timer;
+
     [Export]
     public int Speed = 10;
 
@@ -10,8 +17,21 @@ public partial class Player : CharacterBody3D
     public int FallAcceleration = 50;
     public const float JumpVelocity = 20.0f;
 
-    private Vector3 _targetVelocity = Vector3.Zero;
+    [Export]
+    public int maxHealth = 3;
+    private int _currentHealth;
     
+    private Vector3 _targetVelocity = Vector3.Zero;
+
+
+    public override void _Ready()
+    {
+        _currentHealth = maxHealth;
+        shape = GetNode<CollisionShape3D>("shape");
+        timer = GetNode<Timer>("Timer");
+        GD.Print(_currentHealth); 
+    }
+
     public override void _PhysicsProcess (double delta) {
         var direction = Vector3.Zero;
         
@@ -60,5 +80,24 @@ public partial class Player : CharacterBody3D
         Velocity = _targetVelocity;
         
         MoveAndSlide();
+    }
+
+    public void health_changed(int dmg){
+        GD.Print(_currentHealth); 
+
+        _currentHealth -= dmg;
+        GD.Print(_currentHealth); 
+        if (_currentHealth <= 0){
+            dead();
+        }
+    }
+
+    public void dead(){
+        shape.CallDeferred("set_disabled", true);
+        timer.Start();
+    }
+
+    private void _on_timer_timeout(){
+        GetTree().ReloadCurrentScene();
     }
 }

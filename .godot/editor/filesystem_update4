@@ -1,2 +1,7 @@
 res://main/main.tscn
 res://player/Player.cs
+res://main/trap.tscn
+res://player/Player.tscn
+res://main/Trap.cs
+res://main/KillZone.cs
+res://main/kill_zone.tscn

@@ -16,3 +16,21 @@
 /Users/milana/Documents/GitHub/game-cs/.godot/mono/temp/obj/Debug/New Game Project.pdb
 /Users/milana/Documents/GitHub/game-cs/.godot/mono/temp/obj/Debug/New Game Project.genruntimeconfig.cache
 /Users/milana/Documents/GitHub/game-cs/.godot/mono/temp/obj/Debug/ref/New Game Project.dll
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\bin\Debug\New Game Project.deps.json
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\bin\Debug\New Game Project.runtimeconfig.json
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\bin\Debug\New Game Project.dll
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\bin\Debug\New Game Project.pdb
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game Project.csproj.AssemblyReference.cache
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game Project.AssemblyInfoInputs.cache
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game Project.AssemblyInfo.cs
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game Project.csproj.CoreCompileInputs.cache
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game Project.sourcelink.json
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game.D781FC22.Up2Date
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game Project.dll
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\refint\New Game Project.dll
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game Project.pdb
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\New Game Project.genruntimeconfig.cache
+D:\Milana_disk_D\Документы\GitHub\game-cs\.godot\mono\temp\obj\Debug\ref\New Game Project.dll

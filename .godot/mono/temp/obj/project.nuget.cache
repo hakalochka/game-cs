@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "o2wOCfjbaQs=",
+  "dgSpecHash": "PF3hivBwS5k=",
   "success": true,
-  "projectFilePath": "/Users/milana/Documents/GitHub/game-cs/New Game Project.csproj",
+  "projectFilePath": "D:\\Milana_disk_D\\Документы\\GitHub\\game-cs\\New Game Project.csproj",
   "expectedPackageFiles": [
-    "/Users/milana/.nuget/packages/godot.sourcegenerators/4.4.0/godot.sourcegenerators.4.4.0.nupkg.sha512",
-    "/Users/milana/.nuget/packages/godotsharp/4.4.0/godotsharp.4.4.0.nupkg.sha512",
-    "/Users/milana/.nuget/packages/godotsharpeditor/4.4.0/godotsharpeditor.4.4.0.nupkg.sha512"
+    "C:\\Users\\Milana\\.nuget\\packages\\godot.sourcegenerators\\4.4.0\\godot.sourcegenerators.4.4.0.nupkg.sha512",
+    "C:\\Users\\Milana\\.nuget\\packages\\godotsharp\\4.4.0\\godotsharp.4.4.0.nupkg.sha512",
+    "C:\\Users\\Milana\\.nuget\\packages\\godotsharpeditor\\4.4.0\\godotsharpeditor.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }
