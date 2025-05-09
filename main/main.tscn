@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=3 uid="uid://du050etywu5mf"]
+
+[ext_resource type="PackedScene" uid="uid://bqkt5qgm7a1wr" path="res://player/Player.tscn" id="1_53q0u"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vbh6e"]
+size = Vector3(60, 1, 60)
+
+[sub_resource type="BoxMesh" id="BoxMesh_63c7r"]
+size = Vector3(60, 1, 60)
+
+[sub_resource type="Environment" id="Environment_53q0u"]
+background_energy_multiplier = 1.84
+ssao_enabled = true
+ssao_power = 1.21838
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_63c7r"]
+
+[node name="Main" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 10, 11)
+
+[node name="Ground" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
+shape = SubResource("BoxShape3D_vbh6e")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground"]
+mesh = SubResource("BoxMesh_63c7r")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9, 0)
+visible = false
+shadow_enabled = true
+sky_mode = 2
+
+[node name="Player" parent="." instance=ExtResource("1_53q0u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_53q0u")
+camera_attributes = SubResource("CameraAttributesPractical_63c7r")
